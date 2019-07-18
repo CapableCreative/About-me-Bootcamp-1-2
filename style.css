@@ -1,0 +1,115 @@
+   /*
+                    NOTE: Commenting is a bit different in CSS. 
+                  They start with forward-slash + asterisk 
+                  and end with back-slash + asterisk.
+                  */
+            /* h1 heading tag */
+            body {
+                margin: 0px;
+                padding: 0px;
+                font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif; 
+                position: relative;
+            }
+
+            h1 {
+              /* Put a 15-pixel margin at the bottom of the heading. */
+              display: block;
+              width: 100%;
+              margin-bottom: 40px;
+              /* Change the size of your font to 60 pixels high. */
+              font-size: 60px;
+              font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+              text-decoration: none;
+              text-transform: uppercase;
+              /* This will color the heading font white. */
+              color: white;
+              /* Align the text to the center of its enclosing element (e.g. div). */
+              text-align: center;
+              /* Underline the text. */
+              /* The background of the heading element will now be black. */
+              background-color: black;
+            }
+            /* h2 heading tags */
+            
+            h2 {
+              /* Put a 15-pixel margin at the top of all h2 headings. */
+              margin-top: 0px;
+              margin-bottom: 15px;
+              font-size: 40px;
+              font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif; 
+            }
+            /* h3 heading tags */
+            
+            h3 {
+              margin-top: 15px;
+              font-size: 20px;
+              font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif; 
+            }
+            /* All img tags */
+            
+            img {
+              /* Center a block element in the middle of its enclosing tag.
+                When you use the "auto" rule on both left and right margins, 
+                your browser will do the math necessary to center a block element.
+                */
+              /* Block display (more on this later) */
+              display: block;
+            }
+            /* All p tags */
+            
+            p {
+              font-size: 15px;
+              /* Bold the text. */
+              font-weight: 500;
+              line-height: 25px;
+              font-family: 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;    
+            }
+            /* All unordered list tags */
+            
+            ul {
+              font-size: 15px;
+              line-height: 24px;
+              /* Give an element a solid border. */
+              /* Render the border 5 pixels thick. */
+              /* Include bullets in the content flow. */
+              /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
+              list-style-position: inside;
+            }
+            .flex-container {
+                display: flex;
+            }
+            .about-me-container {
+                max-width: 1100px;
+                margin: 0px auto;
+                }
+                .about-me-container img {
+                    max-width: 200px;
+                    float: left; 
+                    padding: 10px 10px 10px 0px;   
+                }
+            .flex-item {
+                flex-basis: 50%;
+            }
+            #contact-info {
+                text-align: left;
+                padding: 20px;
+                background: #eaeaea;
+                border-radius: 10px;
+            }
+            .footer {
+                height: 200px;
+                background: #333;
+                padding: 60px 0px 100px 0px;
+                margin-top: 60px;
+                width: 100%;
+                position: absolute;
+                bottom: -500px;
+            }
+            .footer .home-link {
+                text-align: center;
+                width: 100%;
+                color: #FFF;
+            }
+            .footer .home-link a {
+                color: #FFF;
+            }
